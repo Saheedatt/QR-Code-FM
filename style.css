@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css?family=Outfit&display=swap);
+
+html,
+body { height: 100%;
+    background-color:  hsl(212, 45%, 89%);
+}
+ 
+.container{
+    border-radius: 10px;
+    justify-items: center;
+    align-items: center;
+}
+.box{  
+    height: 300px;
+    
+}
+img{
+    padding: 10px;
+    border-radius: 15px;
+    position: relative;
+   
+}
+.text1{
+    font-size: 15px;
+    font-family:outfit;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    text-align: center;
+}
+.text2{
+    font-size: 15px;
+    font-family:outfit;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+}
