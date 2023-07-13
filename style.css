@@ -1,36 +1,56 @@
 @import url(https://fonts.googleapis.com/css?family=Outfit&display=swap);
-
-html,
-body { height: 100%;
-    background-color:  hsl(212, 45%, 89%);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
- 
-.container{
-    border-radius: 10px;
-    justify-items: center;
+html, body {
+    background-color: hsl(212, 45%, 89%);
+    height: 100%;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
-.box{  
-    height: 300px;
-    
-}
-img{
-    padding: 10px;
+.container {
+    background: hsl(0, 0%, 100%);
+    max-width: 220px;
     border-radius: 15px;
-    position: relative;
-   
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
 }
-.text1{
+
+.first-text{
     font-size: 15px;
-    font-family:outfit;
+    font-family: 'outfit';
     font-weight: 700;
     color: hsl(218, 44%, 22%);
     text-align: center;
+    justify-content: center;
+    align-items: center;
+ 
 }
-.text2{
+.second-text {
     font-size: 15px;
-    font-family:outfit;
+    font-family: 'outfit';
     font-weight: 400;
     color: hsl(220, 15%, 55%);
+    text-align: center; 
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+img {
+    position: relative;
+    margin: 10px;
+}
+
+.attribution{
     text-align: center;
+    margin-top: 30px;
 }
